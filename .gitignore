@@ -1,1 +1,25 @@
+.gitignore
+# Data
 photo/*
+pdfs/*
+
+# MTCNN
+cropped_face_MTCNN/*
+face_deteceted_MTCNN/*
+pdf_cropped_faces_MTCNN/*
+
+# HaarCascade
+cropped_face_HaarCascade/*
+face_deteceted_HaarCascade/*
+pdf_cropped_faces_HaarCascade/*
+
+# YOLO
+cropped_face_YOLO/*
+face_detected_YOLO/*
+yolov5s.pt
+yolov8n-pose.pt
+
+# MediaPipe
+face_detected_MediaPipe/*
+cropped_faces_MediaPipe/*
+pdf_cropped_faces_MediaPipe/*
